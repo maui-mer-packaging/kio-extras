@@ -13,7 +13,6 @@ Group:      System/Base
 License:    GPLv2+
 URL:        http://www.kde.org
 Source0:    %{name}-%{version}.tar.xz
-Source1:    kde.pam
 Source100:  kde5-kio-extras.yaml
 Source101:  kde5-kio-extras-rpmlintrc
 Requires:   kde5-filesystem
