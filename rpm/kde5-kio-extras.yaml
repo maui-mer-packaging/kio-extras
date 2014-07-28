@@ -1,5 +1,5 @@
 Name         : kde5-kio-extras
-Version      : 4.97.0
+Version      : 5.0.0
 Release      : 1
 Group        : System/Base
 License      : GPLv2+
@@ -40,10 +40,10 @@ PkgBR:
     - kf5-kdelibs4support-devel
     - kf5-solid-devel
     - phonon-qt5-devel
-    - openslp-devel
-    - libssh-devel
+#    - openslp-devel
+#    - libssh-devel
     - bzip2-devel
-    - libexiv2-devel
+#    - libexiv2-devel
     - libjpeg-turbo-devel
     - lzma-devel
 PkgConfigBR:
@@ -55,8 +55,8 @@ PkgConfigBR:
     - Qt5Widgets
     - Qt5Concurrent
     - Qt5Test
-    - smbclient
-    - OpenEXR
+#    - smbclient
+#    - OpenEXR
 Requires:
     - kde5-filesystem
 
@@ -64,13 +64,7 @@ Files:
     - "%{_kde5_bindir}/ktrash5"
     - "%{_kde5_libdir}/libmolletnetwork.so.*"
     - "%{_kde5_plugindir}/*.so"
-    - "%{_kde5_datadir}/kio_desktop"
-    - "%{_kde5_datadir}/kio_docfilter"
-    - "%{_kde5_datadir}/kio_bookmarks"
-    - "%{_kde5_datadir}/kio_info"
-    - "%{_kde5_datadir}/konqsidebartng/virtual_folders/remote/virtualfolder_network.desktop"
-    - "%{_kde5_datadir}/konqueror/dirtree/remote/smb-network.desktop"
-    - "%{_kde5_datadir}/remoteview"
+    - "%{_kde5_datadir}/*"
     - "%{_datadir}/kservices5/*.protocol"
     - "%{_datadir}/kservices5/*.desktop"
     - "%{_datadir}/kservices5/kded/*.desktop"
