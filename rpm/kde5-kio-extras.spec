@@ -46,6 +46,7 @@ BuildRequires:  phonon-qt5-devel
 BuildRequires:  bzip2-devel
 BuildRequires:  libjpeg-turbo-devel
 BuildRequires:  lzma-devel
+BuildRequires:  shared-mime-info
 
 
 %description

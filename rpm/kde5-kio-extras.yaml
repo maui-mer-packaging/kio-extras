@@ -46,6 +46,7 @@ PkgBR:
 #    - libexiv2-devel
     - libjpeg-turbo-devel
     - lzma-devel
+    - shared-mime-info
 PkgConfigBR:
     - Qt5Core
     - Qt5DBus
