@@ -1,4 +1,4 @@
-Name         : kde5-kio-extras
+Name         : kio-extras
 Version      : 5.0.0
 Release      : 1
 Group        : System/Base
@@ -22,22 +22,21 @@ Configure    : none
 Builder      : none
 
 PkgBR:
-    - kde5-rpm-macros
+    - kf5-rpm-macros
     - extra-cmake-modules
-    - kf5-umbrella
-    - kf5-karchive-devel
-    - kf5-kconfig-devel
-    - kf5-kconfigwidgets-devel
-    - kf5-kcoreaddons-devel
-    - kf5-kdbusaddons-devel
-    - kf5-kdoctools-devel
-    - kf5-kdnssd-devel
-    - kf5-kiconthemes-devel
-    - kf5-ki18n-devel
-    - kf5-kio-devel
-    - kf5-khtml-devel
-    - kf5-kdelibs4support-devel
-    - kf5-solid-devel
+    - karchive-devel
+    - kconfig-devel
+    - kconfigwidgets-devel
+    - kcoreaddons-devel
+    - kdbusaddons-devel
+    - kdoctools-devel
+    - kdnssd-devel
+    - kiconthemes-devel
+    - ki18n-devel
+    - kio-devel
+    - khtml-devel
+    - kdelibs4support-devel
+    - solid-devel
     - phonon-qt5-devel
 #    - openslp-devel
 #    - libssh-devel
@@ -59,19 +58,19 @@ PkgConfigBR:
 #    - smbclient
 #    - OpenEXR
 Requires:
-    - kde5-filesystem
+    - kf5-filesystem
 
 Files:
-    - "%{_kde5_bindir}/ktrash5"
-    - "%{_kde5_libdir}/libmolletnetwork.so.*"
-    - "%{_kde5_plugindir}/*.so"
-    - "%{_kde5_datadir}/*"
-    - "%{_datadir}/kservices5/*.protocol"
-    - "%{_datadir}/kservices5/*.desktop"
-    - "%{_datadir}/kservices5/kded/*.desktop"
-    - "%{_datadir}/kservicetypes5/thumbcreator.desktop"
-    - "%{_datadir}/dbus-1/interfaces/kf5_org.kde.network.kioslavenotifier.xml"
+    - "%{_kf5_bindir}/ktrash5"
+    - "%{_kf5_libdir}/libmolletnetwork.so.*"
+    - "%{_kf5_plugindir}/*.so"
+    - "%{_kf5_sharedir}/kio_*"
+    - "%{_kf5_sharedir}/konqsidebartng/*"
+    - "%{_kf5_sharedir}/remoteview/*"
+    - "%{_kf5_servicesdir}/*"
+    - "%{_kf5_servicetypesdir}/*"
+    - "%{_kf5_dbusinterfacesdir}/kf5_org.kde.network.kioslavenotifier.xml"
     - "%{_datadir}/mime/packages/kf5_network.xml"
-    - "%{_datadir}/doc/HTML/en/kioslave5"
-    - "%{_datadir}/doc/HTML/en/kcontrol"
+    - "%{_kf5_htmldir}/en/kioslave5"
+    - "%{_kf5_htmldir}/en/kcontrol"
     - "%{_datadir}/config.kcfg/jpegcreatorsettings.kcfg"
