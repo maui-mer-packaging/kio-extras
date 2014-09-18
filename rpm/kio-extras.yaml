@@ -55,6 +55,7 @@ PkgConfigBR:
     - Qt5Concurrent
     - Qt5Test
     - Qt5PrintSupport
+    - Qt5Svg
 #    - smbclient
 #    - OpenEXR
 Requires:
