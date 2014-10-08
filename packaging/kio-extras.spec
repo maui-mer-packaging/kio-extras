@@ -8,12 +8,6 @@ Name:       kio-extras
 # >> macros
 # << macros
 
-# >> bcond_with
-# << bcond_with
-
-# >> bcond_without
-# << bcond_without
-
 Summary:    Additional components to increase the functionality of KIO Framework
 Version:    5.0.0
 Release:    1
