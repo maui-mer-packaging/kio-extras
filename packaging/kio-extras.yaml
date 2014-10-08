@@ -7,7 +7,6 @@ Summary      : Additional components to increase the functionality of KIO Framew
 Description  : |
   Additional components to increase the functionality of KIO Framework.
 URL          : http://www.kde.org
-SetupOptions : -q -n %{name}-%{version}/upstream
 
 Sources:
     - "%{name}-%{version}.tar.xz"

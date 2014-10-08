@@ -54,7 +54,7 @@ Additional components to increase the functionality of KIO Framework.
 
 
 %prep
-%setup -q -n %{name}-%{version}/upstream
+%setup -q -n %{name}-%{version}
 
 # >> setup
 # << setup
